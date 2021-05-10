@@ -1,8 +1,5 @@
-# React Portfolio
-
-Alaina J. Hicks - React Portfolio  
-
-About Me  
+## Alaina J. Hicks - React Portfolio  
+## About Me  
 Email: ajhicks0816@gmail.com  
 Website:  
 GitHub: https://github.com/ayejayhicks  
@@ -26,5 +23,6 @@ To show a complete portfolio that showcases my work and who I am.
 ## Technologies Used
 React.js  
 Bootstrap
+React-Bootstrap
 
 ## Screenshots
