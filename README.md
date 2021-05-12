@@ -22,7 +22,7 @@ To show a complete portfolio that showcases my work and who I am.
 
 ## Technologies Used
 React.js  
-Bootstrap
+Bootstrap  
 React-Bootstrap
 
 ## Screenshots
