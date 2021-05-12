@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/esm/Container";
+import Navbar from "react-bootstrap/esm/Navbar";
+import Nav from "react-bootstrap/esm/Nav";
 import './App.css';
 
 import Footer from "./components/Footer";

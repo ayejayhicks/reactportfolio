@@ -1,9 +1,9 @@
 ## Alaina J. Hicks - React Portfolio  
 ## About Me  
-Email: ajhicks0816@gmail.com  
-Website:  
+Email: ajhicks0816@gmail.com    
 GitHub: https://github.com/ayejayhicks  
-LinkedIn: https://www.linkedin.com/in/alainajhicks/
+LinkedIn: https://www.linkedin.com/in/alainajhicks/  
+React Portfolio: 
 
 ## Purpose
 The purpose of this assignment is to update my current responsive portfolio to a React portfolio to become more employer competitive. 
