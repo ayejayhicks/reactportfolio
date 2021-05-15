@@ -1,10 +1,14 @@
 import React from "react";
 
-import hhh from "../assets/images/hhh.png";
+import Card from "../components/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+
+import hhh from "../assets/images/hhh2.png";
 import homegrown from "../assets/images/homegrown.png";
 import workouttracker from "../assets/images/workouttracker.png";
-import budgettracker from "../assets/images/budgettracker.png";
-import { timeStamp } from "node:console";
+import budgettracker from "../assets/images/budgettracker2.png";
+import notetaker from "../assets/images/notetaker.png";
 
 class Carousel extends React.Component {
 
@@ -48,6 +52,15 @@ class Carousel extends React.Component {
                 link: "https://stormy-peak-42811.herokuapp.com/",
                 selected: false
             },
+            {
+                id: 4,
+                title: "Note Taker",
+                subTitle: "",
+                imgSrc: notetaker,
+                github: "https://github.com/ayejayhicks/notetaker",
+                link: "https://tranquil-island-78590.herokuapp.com/",
+                selected: false
+            },
             ]
 
         }
@@ -58,7 +71,7 @@ class Carousel extends React.Component {
 
         items[id].selected = items[id].selected ? false : true;
 
-        item.forEach(item => {
+        items.forEach(item => {
             if(item.id !== id) {
                 item.selected = false;
             }
@@ -78,7 +91,11 @@ class Carousel extends React.Component {
 
     render() {
         return (
-            <p>Carousel Works!</p>
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
         );
     }
 }
