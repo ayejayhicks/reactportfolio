@@ -7,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import hhh from "../assets/images/hhh2.png";
 import homegrown from "../assets/images/homegrown.png";
 import workouttracker from "../assets/images/workouttracker.png";
+import readmegenerator from "../assets/images/readmegenerator.png";
 import budgettracker from "../assets/images/budgettracker2.png";
 import notetaker from "../assets/images/notetaker.png";
 
@@ -45,11 +46,11 @@ class Carousel extends React.Component {
             },
             {
                 id: 3,
-                title: "Budget Tracker",
-                subTitle: "Track your finances on and offline",
-                imgSrc: budgettracker,
-                github: "https://github.com/ayejayhicks/budgettracker",
-                link: "https://stormy-peak-42811.herokuapp.com/",
+                title: "README Generator",
+                subTitle: "README",
+                imgSrc: readmegenerator,
+                github: "https://github.com/ayejayhicks/readmegenerator",
+                link: "https://drive.google.com/file/d/1qMXAuN6CO2NPdFekE9GtUcTpbWJjKQ6P/view",
                 selected: false
             },
             {
@@ -61,8 +62,16 @@ class Carousel extends React.Component {
                 link: "https://tranquil-island-78590.herokuapp.com/",
                 selected: false
             },
+            {
+                id: 5,
+                title: "Budget Tracker",
+                subTitle: "Track your finances on and offline",
+                imgSrc: budgettracker,
+                github: "https://github.com/ayejayhicks/budgettracker",
+                link: "https://stormy-peak-42811.herokuapp.com/",
+                selected: false
+            },
             ]
-
         }
     }
 
